@@ -8,7 +8,7 @@ theme_set(theme_default())
 
 brm_small2 = readRDS(file = "models/brm_small2.rds")
 
-post_check = pp_check(brm_small2, type = "dens_overlay_grouped", group = "gene")
+post_check = pp_check(brm_small2, type = "hist")
 
-post_check + 
-  facet_wrap(~group, scales = "free_y")
+ggsave(post_check + theme(axis.text.x = element_text(size = 8)), 
+       file = "plots/post_check.jpg", width = 6.5, height = 5)
