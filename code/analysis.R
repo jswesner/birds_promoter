@@ -42,10 +42,10 @@ promoter_data <- read_excel("data/promoter_data.xlsx") %>%
 
 brm_small2 = readRDS(file = "models/brm_small2.rds")
 
-brm_small2_prior = update(brm_small2, sample_prior = "only", newdata = brm_small2$data %>% 
-                            group_by(gene, cat_gene, carers) %>% sample_n(1), iter = 500, chains = 1)
-
-saveRDS(brm_small2_prior, file = "models/brm_small2_prior.rds")
+# brm_small2_prior = update(brm_small2, sample_prior = "only", newdata = brm_small2$data %>% 
+#                             group_by(gene, cat_gene, carers) %>% sample_n(1), iter = 500, chains = 1)
+# 
+# saveRDS(brm_small2_prior, file = "models/brm_small2_prior.rds")
 
 # plot model --------------------------------------------------------------
 library(tidybayes)
@@ -133,3 +133,25 @@ prob_table = posts_all  %>%
 write_csv(median_table, file = "tables/median_table.csv")
 write_csv(diff_table, file = "tables/diff_table.csv")
 write_csv(prob_table, file = "tables/prob_table.csv")
+
+# effect size with probs
+
+posts_all  %>% 
+  pivot_wider(names_from = carers, values_from = .epred) %>%
+  mutate(diff = `2` - `3+`) %>%  
+  group_by(cat_gene, gene) %>% 
+  left_join(prob_table %>% ungroup %>% distinct(gene, prob_diff)) %>% 
+  filter(prob_diff > 0.9) %>% 
+  group_by(.draw, cat_gene) %>% 
+  reframe(diff = mean(diff)) %>% 
+  group_by(cat_gene) %>% 
+  median_qi(diff)
+
+posts_all  %>%  
+  group_by(cat_gene, gene, carers) %>% 
+  left_join(prob_table %>% ungroup %>% distinct(gene, prob_diff)) %>% 
+  filter(prob_diff > 0.9) %>%
+  group_by(.draw, cat_gene, carers) %>% 
+  reframe(.epred = mean(.epred)) %>% 
+  group_by(cat_gene, carers) %>% 
+  median_qi(.epred)
