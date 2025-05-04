@@ -1,0 +1,27 @@
+cat_gene,gene,prob_diff,definition
+Social,AVP1A,0.71175,Probability that methylation is higher in 2 versus 3+ carers
+Social,AVPRB,1,Probability that methylation is higher in 2 versus 3+ carers
+Social,AVT,0.9635,Probability that methylation is higher in 2 versus 3+ carers
+Social,BDNF,0.902,Probability that methylation is higher in 2 versus 3+ carers
+Social,DRD4,0.985,Probability that methylation is higher in 2 versus 3+ carers
+Social,EGR1,0.7975,Probability that methylation is higher in 2 versus 3+ carers
+Social,FOXP2,0.98175,Probability that methylation is higher in 2 versus 3+ carers
+Social,GAPDH (control),0.41075,Probability that methylation is higher in 2 versus 3+ carers
+Social,GNIH,0.98025,Probability that methylation is higher in 2 versus 3+ carers
+Social,HTR1A,0.77525,Probability that methylation is higher in 2 versus 3+ carers
+Social,MAOA,0.9945,Probability that methylation is higher in 2 versus 3+ carers
+Social,NTS,0.96075,Probability that methylation is higher in 2 versus 3+ carers
+Social,OXTR,0.9425,Probability that methylation is higher in 2 versus 3+ carers
+Social,PRLH,0.90675,Probability that methylation is higher in 2 versus 3+ carers
+Social,PRLHR,0.93725,Probability that methylation is higher in 2 versus 3+ carers
+Stress,CRHBP,0.45975,Probability that methylation is higher in 2 versus 3+ carers
+Stress,CRHR1,0.77825,Probability that methylation is higher in 2 versus 3+ carers
+Stress,DNMT1,0.58225,Probability that methylation is higher in 2 versus 3+ carers
+Stress,DNMT3A,0.9865,Probability that methylation is higher in 2 versus 3+ carers
+Stress,FKBP5,0.9975,Probability that methylation is higher in 2 versus 3+ carers
+Stress,GAPDH (control),0.41075,Probability that methylation is higher in 2 versus 3+ carers
+Stress,HSD11B1,0.8075,Probability that methylation is higher in 2 versus 3+ carers
+Stress,HSD11B2,0.61625,Probability that methylation is higher in 2 versus 3+ carers
+Stress,MCR2,0.613,Probability that methylation is higher in 2 versus 3+ carers
+Stress,NPY,0.58825,Probability that methylation is higher in 2 versus 3+ carers
+Stress,NR3C1,0.46825,Probability that methylation is higher in 2 versus 3+ carers

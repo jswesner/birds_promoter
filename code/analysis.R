@@ -41,6 +41,7 @@ promoter_data <- read_excel("data/promoter_data.xlsx") %>%
 # saveRDS(brm_small2, file = "models/brm_small2.rds")
 
 brm_small2 = readRDS(file = "models/brm_small2.rds")
+brm_small2 = update(brm_small2, newdata = promoter_data)
 
 # brm_small2_prior = update(brm_small2, sample_prior = "only", newdata = brm_small2$data %>% 
 #                             group_by(gene, cat_gene, carers) %>% sample_n(1), iter = 500, chains = 1)

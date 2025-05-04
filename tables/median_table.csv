@@ -1,0 +1,53 @@
+carers,cat_gene,gene,prop_methylated,.lower,.upper
+2,Social,AVP1A,0.26,0.25,0.28
+2,Social,AVPRB,0.57,0.55,0.58
+2,Social,AVT,0.43,0.41,0.45
+2,Social,BDNF,0.45,0.43,0.47
+2,Social,DRD4,0.41,0.39,0.43
+2,Social,EGR1,0.23,0.22,0.24
+2,Social,FOXP2,0.54,0.51,0.56
+2,Social,GAPDH (control),0.25,0.23,0.26
+2,Social,GNIH,0.53,0.49,0.58
+2,Social,HTR1A,0.25,0.23,0.26
+2,Social,MAOA,0.45,0.42,0.47
+2,Social,NTS,0.51,0.48,0.55
+2,Social,OXTR,0.36,0.34,0.38
+2,Social,PRLH,0.49,0.45,0.52
+2,Social,PRLHR,0.28,0.27,0.3
+2,Stress,CRHBP,0.33,0.32,0.35
+2,Stress,CRHR1,0.48,0.45,0.5
+2,Stress,DNMT1,0.6,0.57,0.62
+2,Stress,DNMT3A,0.82,0.8,0.83
+2,Stress,FKBP5,0.64,0.63,0.66
+2,Stress,GAPDH (control),0.25,0.23,0.26
+2,Stress,HSD11B1,0.55,0.5,0.59
+2,Stress,HSD11B2,0.43,0.41,0.44
+2,Stress,MCR2,0.4,0.35,0.45
+2,Stress,NPY,0.27,0.26,0.29
+2,Stress,NR3C1,0.57,0.55,0.58
+3+,Social,AVP1A,0.26,0.25,0.27
+3+,Social,AVPRB,0.54,0.53,0.55
+3+,Social,AVT,0.41,0.4,0.43
+3+,Social,BDNF,0.44,0.42,0.45
+3+,Social,DRD4,0.39,0.37,0.4
+3+,Social,EGR1,0.23,0.22,0.24
+3+,Social,FOXP2,0.51,0.49,0.53
+3+,Social,GAPDH (control),0.25,0.24,0.26
+3+,Social,GNIH,0.51,0.47,0.54
+3+,Social,HTR1A,0.24,0.23,0.25
+3+,Social,MAOA,0.42,0.4,0.44
+3+,Social,NTS,0.49,0.46,0.52
+3+,Social,OXTR,0.35,0.33,0.36
+3+,Social,PRLH,0.47,0.44,0.5
+3+,Social,PRLHR,0.27,0.26,0.28
+3+,Stress,CRHBP,0.34,0.32,0.35
+3+,Stress,CRHR1,0.47,0.45,0.49
+3+,Stress,DNMT1,0.59,0.58,0.61
+3+,Stress,DNMT3A,0.8,0.79,0.81
+3+,Stress,FKBP5,0.62,0.61,0.63
+3+,Stress,GAPDH (control),0.25,0.24,0.26
+3+,Stress,HSD11B1,0.53,0.49,0.58
+3+,Stress,HSD11B2,0.42,0.41,0.43
+3+,Stress,MCR2,0.4,0.35,0.44
+3+,Stress,NPY,0.27,0.26,0.28
+3+,Stress,NR3C1,0.57,0.55,0.58

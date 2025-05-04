@@ -1,0 +1,27 @@
+cat_gene,gene,difference_2_minus_3plus,.lower,.upper
+Social,AVP1A,0.004,-0.011,0.016
+Social,AVPRB,0.028,0.012,0.048
+Social,AVT,0.016,-0.002,0.033
+Social,BDNF,0.015,-0.009,0.036
+Social,DRD4,0.021,0.002,0.045
+Social,EGR1,0.005,-0.006,0.015
+Social,FOXP2,0.025,0.002,0.049
+Social,GAPDH (control),-0.002,-0.016,0.012
+Social,GNIH,0.025,0.002,0.053
+Social,HTR1A,0.005,-0.009,0.018
+Social,MAOA,0.024,0.005,0.052
+Social,NTS,0.021,-0.003,0.046
+Social,OXTR,0.015,-0.004,0.033
+Social,PRLH,0.016,-0.011,0.038
+Social,PRLHR,0.011,-0.003,0.025
+Stress,CRHBP,-0.001,-0.02,0.018
+Stress,CRHR1,0.008,-0.013,0.031
+Stress,DNMT1,0.002,-0.023,0.021
+Stress,DNMT3A,0.015,0.002,0.029
+Stress,FKBP5,0.022,0.007,0.038
+Stress,GAPDH (control),-0.002,-0.016,0.012
+Stress,HSD11B1,0.01,-0.014,0.038
+Stress,HSD11B2,0.003,-0.017,0.02
+Stress,MCR2,0.003,-0.024,0.029
+Stress,NPY,0.002,-0.013,0.017
+Stress,NR3C1,-0.001,-0.021,0.017
